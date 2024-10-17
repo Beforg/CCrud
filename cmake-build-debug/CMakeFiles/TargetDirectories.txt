@@ -1,0 +1,3 @@
+C:/Users/Bruno Forgiarini/CLionProjects/CCrud/cmake-build-debug/CMakeFiles/CCrud.dir
+C:/Users/Bruno Forgiarini/CLionProjects/CCrud/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bruno Forgiarini/CLionProjects/CCrud/cmake-build-debug/CMakeFiles/rebuild_cache.dir
