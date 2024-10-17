@@ -3,14 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 
-// pra limpar o buffer do teclado, pois estava pegando o enter
-
 void clearBuffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
-
-// removendo o \n do final da string
 
 void removeNewline(char *str) {
     size_t len = strlen(str);
@@ -29,7 +25,7 @@ void continueRegister(int *opcao) {
         printf("Opcao invalida\n");
     }
 }
-// mostrando as opcoes do menu
+
 void showOptions() {
     printf("========================================\n");
     printf("1. Cadastrar produto\n");
@@ -40,8 +36,6 @@ void showOptions() {
     printf("6. Sair\n");
     printf("========================================\n");
 }
-
-// registro do produto
 
 void registerProduct() {
     int opcao = -1;

@@ -6,4 +6,4 @@ void listProducts();
 void update();
 void delete();
 void about();
-#endif //OPTIONS_H
+#endif

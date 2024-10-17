@@ -30,7 +30,7 @@ void readProduct() {
         char productName[50];
         double productPrice;
 
-        // Dividir a linha em componentes
+
         char *token = strtok(line, ",");
         if (token != NULL) productCode = atoi(token);
 
@@ -40,13 +40,12 @@ void readProduct() {
         token = strtok(NULL, ",");
         if (token != NULL) productPrice = atof(token);
 
-        // Remover o caractere de nova linha do nome do produto, se presente
+
         size_t len = strlen(productName);
         if (len > 0 && productName[len-1] == '\n') {
             productName[len-1] = '\0';
         }
 
-        // Exibir os dados em formato de tabela
         printf("%-10d %-20s %-10.2f\n", productCode, productName, productPrice);
     }
 
